@@ -179,3 +179,17 @@ body{
     grid-template-columns: repeat(3,1fr);
     padding-top: 20px;
 }
+
+@media (max-width: 1000px)
+{
+    .container
+    {
+        margin: 20px;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .container .left_side
+    {
+        height: 700px;
+    }
+}
